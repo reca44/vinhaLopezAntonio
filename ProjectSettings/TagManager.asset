@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: fondo
+    uniqueID: 2108161099
+    locked: 0
+  - name: suelo
+    uniqueID: 2168026855
+    locked: 0
+  - name: personaje
+    uniqueID: 1340997581
+    locked: 0
