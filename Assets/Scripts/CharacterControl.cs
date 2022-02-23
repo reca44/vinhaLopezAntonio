@@ -27,7 +27,7 @@ public class CharacterControl : MonoBehaviour
          Vector2 velocidad = new Vector2(dirX * 5, rb.velocity.y);
  
         if (Input.GetButtonDown("Jump")) {
-            rb.AddForce(new Vector2(0, 500));
+            rb.AddForce(new Vector2(0, 350));
         }
  
         rb.velocity = velocidad;
