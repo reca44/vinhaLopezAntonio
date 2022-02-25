@@ -25,11 +25,17 @@ public class CharacterControl : MonoBehaviour
 
            
          Vector2 velocidad = new Vector2(dirX * 5, rb.velocity.y);
- 
+       
         if (Input.GetButtonDown("Jump")) {
-            rb.AddForce(new Vector2(0, 350));
+            rb.AddForce(new Vector2(0, 250));
         }
- 
+        // Animation animator=new Animation();
+        //if(dirX>0){
+          //  animator.Play("run",-1,0f);
+        //}else if(dirX<0){
+          //  animator.Play("idle",-1,0f);
+        //}
+
         rb.velocity = velocidad;
     }
     
