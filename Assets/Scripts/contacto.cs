@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class isGrounded : MonoBehaviour
+public class contacto : MonoBehaviour
 {
-     public static bool isGrounded;
+    public static bool isGrounded;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
