@@ -6,8 +6,8 @@ public class CharacterControl : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
     public Animator animator;
-    public float velocidadCorrer = 6f;
-    public float velocidadSalto = 18f;
+    public float velocidadCorrer;
+    public float velocidadSalto;
     Rigidbody2D rb;
     void Start()
     {
@@ -38,7 +38,8 @@ public class CharacterControl : MonoBehaviour
         }
         if (Input.GetKey("space") && contacto.isGrounded)
         {
-            rb.AddForce(new Vector2(0, 10));
+            //rb.AddForce(new Vector2(0, 100));
+             rb.velocity = new Vector2(rb.velocity.x, velocidadSalto);
 
         }
         //intente hacer un doble salto pero no me funciona

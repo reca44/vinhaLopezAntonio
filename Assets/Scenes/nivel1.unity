@@ -2412,8 +2412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 980454926}
   animator: {fileID: 980454931}
-  velocidadCorrer: 8
-  velocidadSalto: 18
+  velocidadCorrer: 6
+  velocidadSalto: 7
 --- !u!95 &980454931
 Animator:
   serializedVersion: 3
